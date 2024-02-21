@@ -1,9 +1,16 @@
-
-# System & Temporary Files
-.DS_Store
-.ipynb_checkpoints/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Large Files (>50MB) Ignored
-wiki_movie_plots_deduped_Project_21_Movies Title Prediction.csv
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and environment
+.env
+app.log
