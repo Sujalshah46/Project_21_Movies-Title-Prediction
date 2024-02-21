@@ -1,0 +1,9 @@
+
+# System & Temporary Files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large Files (>50MB) Ignored
+wiki_movie_plots_deduped_Project_21_Movies Title Prediction.csv
